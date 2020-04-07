@@ -403,7 +403,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="testimonial-sidebar">
-                    <h3>Our Clients Testimonials sit voluptatem accusantium</h3>
+                    <h3 class="heading-tile">Our Clients Testimonials <span> sit voluptatem accusantium</span></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. incididunt ut labore et dolore magna aliqua. </p>
                     <div class="testimonials-btns">
                         <a href="javascript:void(0)" class="common-btn outline-btn">Order Now <span class="icon"></span></a>
@@ -415,45 +415,45 @@
                       <div class="row">
                           <div class="col-md-6">
                             <div class="customer-testimonials-box">
-                                <div class="ct-details">
+                                <div class="ct-details d-flex flex-wrap align-items-center">
                                     <div class="ct-img">
-                                        <img src="assets/images/testimonials.png" alt="">
+                                        <img src="assets/images/img-01.jpg" alt="">
                                     </div>
                                     <div class="ct-text">
                                          <h3>Cheryl Gardner</h3>
                                          <h4>MBA Student</h4>
-                                         <span class="quotes"></span>
+                                         <span class="icon quotes"></span>
                                     </div>
                                 </div>
                                 <div class="cs-text">
-                                “ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. 
+                               <p> “ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. </p>
                                 </div>
-                                <div class="rating-stars">
-                                     <div class="icon stars"></div>
-                                     <div class="rating-value">4.7/5</div>
+                                <div class="rating-stars d-inline-flex align-items-center">
+                                <div class="stars"> <img src="assets/images/rating-stars.png" alt=""> </div>
+                                        <div class="rating-value"><span> 4.7</span>/5</div>
                                 </div>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="customer-testimonials-box">
-                                <div class="ct-details">
-                                    <div class="ct-img">
-                                        <img src="assets/images/testimonials.png" alt="">
+                                    <div class="ct-details d-flex flex-wrap align-items-center">
+                                        <div class="ct-img">
+                                            <img src="assets/images/img-02.jpg" alt="">
+                                        </div>
+                                        <div class="ct-text">
+                                            <h3>Cheryl Gardner</h3>
+                                            <h4>MBA Student</h4>
+                                            <span class="icon quotes"></span>
+                                        </div>
                                     </div>
-                                    <div class="ct-text">
-                                         <h3>Cheryl Gardner</h3>
-                                         <h4>MBA Student</h4>
-                                         <span class="quotes"></span>
+                                    <div class="cs-text">
+                                        <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. </p>
+                                    </div>
+                                    <div class="rating-stars d-inline-flex align-items-center">
+                                        <div class="stars"> <img src="assets/images/rating-stars.png" alt=""> </div>
+                                        <div class="rating-value"><span> 4.7</span>/5</div>
                                     </div>
                                 </div>
-                                <div class="cs-text">
-                                “ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. 
-                                </div>
-                                <div class="rating-stars">
-                                     <div class="icon stars"></div>
-                                     <div class="rating-value">4.7/5</div>
-                                </div>
-                            </div>
                           </div>
                       </div>  
                 </div>

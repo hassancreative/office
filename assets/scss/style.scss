@@ -531,7 +531,92 @@ header{
 
 /** Testimonials **/
 .testimonials{
-    
+    padding: 70px 0;
+    background: #f4f4f4;
+    .testimonial-sidebar{
+        h3{ 
+            span{
+                font-size: 21px
+            }
+            &:before{
+                margin: 0
+            }
+        }
+        p{ 
+            font-weight: 500;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    .customer-testimonials{ 
+        background: #02bc4d;
+        padding: 21px 37px;
+        border-radius: 12px 12px 0 0;
+        box-shadow: 0 0 29px 0px rgba(2, 188, 77,0.3);
+        .customer-testimonials-box{
+            .ct-details{
+                .ct-img{
+                    width: 110px;
+                    height:110px; 
+                    img{
+                        max-width: 100%;
+                        border-radius: 50%;
+                        display: inline-block;
+                         border:2px solid #008937;
+                    }
+                }
+                .ct-text{
+                    padding-left: 15px;
+                    h3{
+                        margin: 0;
+                        font-size: 18px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                    h4{
+                        margin: 0;
+                        color: #fff;
+                        font-size: 16px;
+                        margin-bottom: 4px;
+                    }
+                    .quotes{ 
+                        width: 55px;
+                        height: 38px;
+                        background-position:  -13px -363px;
+                        display: block
+                    }
+                } 
+            }
+            .cs-text{
+                p{
+                    color: #fff;
+                    margin: 27px 0;
+                }
+            }
+            .rating-stars{
+                background: #01973e;
+                padding: 0 18px;
+    border-radius: 50px;
+                .icon{
+                    &.stars{
+                        background-position:  -108px -304px;
+                        width: 17px;
+                        height: 16px;
+                    }
+                }
+                .rating-value{
+                    line-height: normal;
+                    color: #fff;
+                    font-weight: 500;
+                    margin-left: 5px;
+                    
+                    span{
+                        color:#fff716;
+                    }
+                }
+            }
+        }
+    }
 }
 /** Testimonials **/
 

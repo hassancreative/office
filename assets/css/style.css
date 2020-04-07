@@ -395,6 +395,66 @@ header {
 
 /** End service-quality **/
 /** Testimonials **/
+.testimonials {
+  padding: 70px 0;
+  background: #f4f4f4; }
+  .testimonials .testimonial-sidebar h3 span {
+    font-size: 21px; }
+  .testimonials .testimonial-sidebar h3:before {
+    margin: 0; }
+  .testimonials .testimonial-sidebar p {
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .testimonials .customer-testimonials {
+    background: #02bc4d;
+    padding: 21px 37px;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 0 29px 0px rgba(2, 188, 77, 0.3); }
+    .testimonials .customer-testimonials .customer-testimonials-box .ct-details .ct-img {
+      width: 110px;
+      height: 110px; }
+      .testimonials .customer-testimonials .customer-testimonials-box .ct-details .ct-img img {
+        max-width: 100%;
+        border-radius: 50%;
+        display: inline-block;
+        border: 2px solid #008937; }
+    .testimonials .customer-testimonials .customer-testimonials-box .ct-details .ct-text {
+      padding-left: 15px; }
+      .testimonials .customer-testimonials .customer-testimonials-box .ct-details .ct-text h3 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .testimonials .customer-testimonials .customer-testimonials-box .ct-details .ct-text h4 {
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 4px; }
+      .testimonials .customer-testimonials .customer-testimonials-box .ct-details .ct-text .quotes {
+        width: 55px;
+        height: 38px;
+        background-position: -13px -363px;
+        display: block; }
+    .testimonials .customer-testimonials .customer-testimonials-box .cs-text p {
+      color: #fff;
+      margin: 27px 0; }
+    .testimonials .customer-testimonials .customer-testimonials-box .rating-stars {
+      background: #01973e;
+      padding: 0 18px;
+      border-radius: 50px; }
+      .testimonials .customer-testimonials .customer-testimonials-box .rating-stars .icon.stars {
+        background-position: -108px -304px;
+        width: 17px;
+        height: 16px; }
+      .testimonials .customer-testimonials .customer-testimonials-box .rating-stars .rating-value {
+        line-height: normal;
+        color: #fff;
+        font-weight: 500;
+        margin-left: 5px; }
+        .testimonials .customer-testimonials .customer-testimonials-box .rating-stars .rating-value span {
+          color: #fff716; }
+
 /** Testimonials **/
 /** do-need  **/
 .do-need {
