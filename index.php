@@ -294,7 +294,7 @@
                         <div class="contact-info">
                             <h5>Sed ut perspicin unde</h5>
                             <h4>Talk With Our Experts</h4>
-                            <div class="phone-no-icon">
+                            <div class="phone-no-icon d-flex flex-wrap align-items-center">
                                 <div class="icon"></div>
                                 <h2>0203-034-8530</h2>
                             </div>
@@ -306,7 +306,7 @@
                         <h2 class="heading-tile">Sed ut perspiciatis unde omnis iste error sit voluptatem </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua. </p>
                         <div class="service-feature-list">
-                            <ul>
+                            <ul class="default-list">
                                 <li>
                                      <h4><div class="icon"></div>At vero eos et accusamus et iusto</h4> 
                                      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt eque porro quisquam est.</p>
@@ -335,7 +335,7 @@
             <div class="row">
                <div class="col-md-8 mx-auto">
                     <div class="our-process-heading text-center">
-                        <h1> <span>   Our Process</span> sit voluptatem accusantium</h1>
+                        <h1 class="heading-tile"> <span>   Our Process</span> sit voluptatem accusantium</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                </div>
@@ -343,8 +343,13 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="process-box">
-                        <div class="process-number">
-
+                        <div class="process-number d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="number">
+                                1
+                            </div>
+                            <div class="dots">
+                                <img src="assets/images/dots.png" alt="">
+                            </div>
                         </div>
                         <div class="process-text">
                             <h4>Out the order form</h4>
@@ -354,8 +359,13 @@
                 </div>
                 <div class="col-md-3">
                     <div class="process-box">
-                        <div class="process-number">
-
+                        <div class="process-number d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="number">
+                                2
+                            </div>
+                            <div class="dots">
+                                <img src="assets/images/dots.png" alt="">
+                            </div>
                         </div>
                         <div class="process-text">
                             <h4>Payment Method</h4>
@@ -365,8 +375,13 @@
                 </div>
                 <div class="col-md-3">
                     <div class="process-box">
-                        <div class="process-number">
-
+                        <div class="process-number d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="number">
+                               3
+                            </div>
+                            <div class="dots">
+                                <img src="assets/images/dots.png" alt="">
+                            </div>
                         </div>
                         <div class="process-text">
                             <h4>Order Complition</h4>
@@ -376,8 +391,13 @@
                 </div>
                 <div class="col-md-3">
                     <div class="process-box">
-                        <div class="process-number">
-
+                       <div class="process-number d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="number">
+                                4
+                            </div>
+                            <div class="dots">
+                                <img src="assets/images/dots.png" alt="">
+                            </div>
                         </div>
                         <div class="process-text">
                             <h4>order Delivery</h4>
@@ -672,7 +692,7 @@
  
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="assets/js/jquery.js"></script>
+    <!-- <script src="assets/js/jquery.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
