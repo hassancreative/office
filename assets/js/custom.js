@@ -1,11 +1,13 @@
-$('.assured-security-carausal').slick({
+$('.point-carausal').slick({
   dots: false,
   infinite: true,
   speed: 300,
   slidesToShow: 1,
+  vertical: true,
+  verticalSwiping: true,
   //   slidesToScroll: 1, 
-  prevArrow: "<span class='slick-arrow prev-arrow'><svg xmlns='http://www.w3.org/2000/svg' width='11' height='18'><path fill-rule='evenodd' d='M2.874 9.157l7.22-7.137-1.4-1.384-8.62 8.521 8.62 8.521 1.4-1.384-7.22-7.137z'/></svg></span>",
-  nextArrow: '<span class="slick-arrow next-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="18"><path fill-rule="evenodd" d="M8.126 9.157L.906 2.02l1.4-1.384 8.62 8.521-8.62 8.521-1.4-1.384 7.22-7.137z"/></svg></span>'
+  prevArrow: "<span class='slick-arrow prev-arrow'> <img src='assets/images/bottom-arrow.png' /> </span>",
+  nextArrow: '<span class="slick-arrow next-arrow"><img src="assets/images/top-arrow.png" /></span>'
 });
 
 $('.publisher-carausal').slick({
@@ -35,8 +37,8 @@ $('.testimonials-carausal').slick({
   slidesToShow: 1,
   arrows: true,
   slidesToScroll: 1,
-  prevArrow: '<span class="slick-arrow prev-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="38"><path fill-rule="evenodd" fill="#D2D2D2" d="M22.007 36.677L2.876 19.004 22.007 1.331 20.571.006.002 19.004l20.569 18.998 1.436-1.325z"/></svg></span>',
-  nextArrow: '<span class="slick-arrow next-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="38"><path fill-rule="evenodd" fill="#D2D2D2" d="M-.007 36.677l19.131-17.673L-.007 1.331 1.429.006l20.569 18.998L1.429 38.002l-1.436-1.325z"/></svg></span>'
+  prevArrow: '<span class="slick-arrow prev-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="38"><path fill-rule="evenodd" d="M22.007 36.677L2.876 19.004 22.007 1.331 20.571.006.002 19.004l20.569 18.998 1.436-1.325z"/></svg></span>',
+  nextArrow: '<span class="slick-arrow next-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="38"><path fill-rule="evenodd" d="M-.007 36.677l19.131-17.673L-.007 1.331 1.429.006l20.569 18.998L1.429 38.002l-1.436-1.325z"/></svg></span>'
 });
 
 

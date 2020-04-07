@@ -132,7 +132,7 @@
                                     <label for="">No. Of Pages</label>
                                     <div class="no-pages">
                                         <span class="increment">+</span>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control text-center" placeholder="0">
                                         <span class="decrement">-</span>
                                     </div>
                                 </div>
@@ -361,6 +361,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="points-slide">
+                        <div class="point-carausal">
+                                <div class="item">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="points-slide-box mb-4">
@@ -397,6 +399,85 @@
                                 </div>
                             </div>
                         </div>
+</div>
+  <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                            </div>
+                        </div>
+</div>
+  <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                            </div>
+                        </div>
+</div>
+</div>
+
                     </div>
                 </div>
             </div>
@@ -507,7 +588,10 @@
             </div>
             <div class="col-md-8">
                 <div class="customer-testimonials">
-                      <div class="row">
+
+                    <div class="testimonials-carausal">
+                        <div class="item">
+                            <div class="row">
                           <div class="col-md-6">
                             <div class="customer-testimonials-box">
                                 <div class="ct-details d-flex flex-wrap align-items-center">
@@ -551,6 +635,103 @@
                                 </div>
                           </div>
                       </div>  
+                        </div>
+
+                         <div class="item">
+                            <div class="row">
+                          <div class="col-md-6">
+                            <div class="customer-testimonials-box">
+                                <div class="ct-details d-flex flex-wrap align-items-center">
+                                    <div class="ct-img">
+                                        <img src="assets/images/img-01.jpg" alt="">
+                                    </div>
+                                    <div class="ct-text">
+                                         <h3>Cheryl Gardner</h3>
+                                         <h4>MBA Student</h4>
+                                         <span class="icon quotes"></span>
+                                    </div>
+                                </div>
+                                <div class="cs-text">
+                               <p> “ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. </p>
+                                </div>
+                                <div class="rating-stars d-inline-flex align-items-center">
+                                <div class="stars"> <img src="assets/images/rating-stars.png" alt=""> </div>
+                                        <div class="rating-value"><span> 4.7</span>/5</div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="customer-testimonials-box">
+                                    <div class="ct-details d-flex flex-wrap align-items-center">
+                                        <div class="ct-img">
+                                            <img src="assets/images/img-02.jpg" alt="">
+                                        </div>
+                                        <div class="ct-text">
+                                            <h3>Cheryl Gardner</h3>
+                                            <h4>MBA Student</h4>
+                                            <span class="icon quotes"></span>
+                                        </div>
+                                    </div>
+                                    <div class="cs-text">
+                                        <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. </p>
+                                    </div>
+                                    <div class="rating-stars d-inline-flex align-items-center">
+                                        <div class="stars"> <img src="assets/images/rating-stars.png" alt=""> </div>
+                                        <div class="rating-value"><span> 4.7</span>/5</div>
+                                    </div>
+                                </div>
+                          </div>
+                      </div>  
+                        </div>
+
+                         <div class="item">
+                            <div class="row">
+                          <div class="col-md-6">
+                            <div class="customer-testimonials-box">
+                                <div class="ct-details d-flex flex-wrap align-items-center">
+                                    <div class="ct-img">
+                                        <img src="assets/images/img-01.jpg" alt="">
+                                    </div>
+                                    <div class="ct-text">
+                                         <h3>Cheryl Gardner</h3>
+                                         <h4>MBA Student</h4>
+                                         <span class="icon quotes"></span>
+                                    </div>
+                                </div>
+                                <div class="cs-text">
+                               <p> “ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. </p>
+                                </div>
+                                <div class="rating-stars d-inline-flex align-items-center">
+                                <div class="stars"> <img src="assets/images/rating-stars.png" alt=""> </div>
+                                        <div class="rating-value"><span> 4.7</span>/5</div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="customer-testimonials-box">
+                                    <div class="ct-details d-flex flex-wrap align-items-center">
+                                        <div class="ct-img">
+                                            <img src="assets/images/img-02.jpg" alt="">
+                                        </div>
+                                        <div class="ct-text">
+                                            <h3>Cheryl Gardner</h3>
+                                            <h4>MBA Student</h4>
+                                            <span class="icon quotes"></span>
+                                        </div>
+                                    </div>
+                                    <div class="cs-text">
+                                        <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. </p>
+                                    </div>
+                                    <div class="rating-stars d-inline-flex align-items-center">
+                                        <div class="stars"> <img src="assets/images/rating-stars.png" alt=""> </div>
+                                        <div class="rating-value"><span> 4.7</span>/5</div>
+                                    </div>
+                                </div>
+                          </div>
+                      </div>  
+                        </div>
+                    </div>
+                      
                 </div>
             </div>
         </div>

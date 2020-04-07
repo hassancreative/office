@@ -209,6 +209,10 @@ header{
                 li > {
                     a{
                         color: $white_color;
+                         transition: ease all .4s;
+                        &:hover{
+                            color: $primary_color;
+                        }
                     } 
                 } 
             }
@@ -247,6 +251,7 @@ header{
                              align-items: center;
                              margin-right: 0;
                              font-size: 14px;
+                             transition: ease all .4s;
                              &:first-child{
                                  border-radius: 50px 0 0 50px;
                                  border-width: 1px 0px 1px 1px;
@@ -272,6 +277,10 @@ header{
                                     background-position: -106px -79px;
                                    
                                 }
+                             }
+                             &:hover{
+                                 background: #0d9f1a;
+                                 border-color:#0d9f1a; 
                              }
                          }
                      }
@@ -702,6 +711,27 @@ header{
 
     }
     .points-slide {
+      position: relative;
+      &:before{
+            content: '';
+            position: absolute;
+            top: -36px;
+            border: 0.6px solid #2b2b2b;
+            width: 80%;
+      }
+        .point-carausal{
+            .slick-arrow{
+                position: absolute;
+                cursor: pointer;
+                top: -59px;
+                &.prev-arrow{
+                    right: 0;
+                }
+                &.next-arrow{
+                        right: 54px;
+                }
+            }
+        }
         margin-top: 30px;
         .points-slide-box{
             h4{
@@ -824,6 +854,41 @@ header{
 
 /** Testimonials **/
 .testimonials{
+    .testimonials-carausal{
+        .slick-arrow{
+            border: 1px solid #c0c0c0;
+            height: 40px;
+            width: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: #fff;
+            cursor: pointer;
+            bottom: -23px;
+            svg{
+                transform: scale(.5);
+                fill: #c0c0c0;
+            }
+            &.prev-arrow{
+                border-radius: 5px 0 0 5px;
+                left: -169px;
+                border-right: 0
+            }
+            &.next-arrow{
+                border-radius: 0 5px 5px 0px; 
+                left: -124px;
+            }
+            &:hover{
+                background: #c0c0c0;
+                svg{
+                    fill: $white_color !important;
+                }
+            }
+        }
+    }
     padding: 70px 0;
     background: #f4f4f4;
     .testimonial-sidebar{
@@ -890,6 +955,11 @@ header{
                 background: #01973e;
                 padding: 0 18px;
     border-radius: 50px;
+    .stars{   
+        img{
+width: 92px;
+        }
+    }
                 .icon{
                     &.stars{
                         background-position:  -108px -304px;
