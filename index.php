@@ -290,6 +290,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="service-feature-img">
+                       
                         <img src="assets/images/service-img.jpg" alt="" class="img-fluid">
                         <div class="contact-info">
                             <h5>Sed ut perspicin unde</h5>
@@ -299,6 +300,7 @@
                                 <h2>0203-034-8530</h2>
                             </div>
                         </div>
+                    
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -328,6 +330,79 @@
         </div>
     </section>
 <!-- Service-Points -->
+
+<!-- slides -->
+    <section class="new-slides">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <div class="heading-text">
+                            <h1 class="heading-tile">
+                                Sed ut perspiciatis unde omnis iste error <span> Sit voluptatem accusantium</span>
+                            </h1>
+                </div>
+            </div>
+                <div class="col-md-6">
+                    <div class="news-slides-text">
+                  
+                        <div class="news-slides-box">
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt equeest.</p>
+
+                            <p>Quia enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt eque porro quisquam est. Neque porro quisquam est, qui dolorem ipsum quia dolor.</p>
+
+                            <a href="javascript:void(0)" class="common-btn outline-btn">Read More <div class="icon"></div>  </a>
+                            <div class="email-address">
+                         <p> Nemo enim ipsam voluptatem quia voluptas sit</p>
+                         <p>Email Us at: <span> info@assignmenthelp.com.uk</span></p>
+                        </div>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="points-slide">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box mb-4">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                                <div class="points-slide-box">
+                                <h4>At vero eos et accusamus</h4>
+                                <p> Nemo enim ipsam voluptatem quia voluptas
+                                    sit aspernatur aut odit aut fugit, sed quia </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End slides -->
 
 <!-- Our-process -->
     <section class="our-process">
