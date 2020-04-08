@@ -203,7 +203,7 @@ header{
         .navbar {
             padding: 0;
             .navbar-nav{
-                width: 100%;
+                width: 53%;
                 justify-content: space-around;
                 border-bottom: 1px solid #878c86;
                 li > {
@@ -222,6 +222,7 @@ header{
             }
         }
         .call-to-action{
+                margin-left: 90px;
             ul{
                  li{
                      a{

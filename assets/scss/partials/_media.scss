@@ -1,670 +1,332 @@
 // Media Querry
 /* Media Querry 1199 */
-@media(max-width:1199px){
-    .heading-lg {
-        font-size: 30px;
-    }
-    .publishing-journey .pj-tabs-list ul li{
-        padding: 6px 10px;
-    }
-    .publishing-journey .pj-tabs-list ul li a p{
-        font-size: 13px;
-    }
-    .publishing-journey .tabs-details-boxes .tabs-details .tabs-details-states .state-box .numbers{
-        font-size: 28px;
-    }
-    .publishing-journey .tabs-details-boxes .tabs-details .tabs-details-states .state-box{
-        min-height: 70px;
-        height: 70px;
-    }
-    .our-services .service-boxes .service-box .service-icon{
-        width: 65px;
-        height: 65px;
-    }
-    .services-section .service-section-boxes .service-section-box{ 
-        width: 190px;
-        height: 155px;
-    }
-    .services-section .service-section-boxes .service-section-box .text-box p{
-        padding: 0
-    }
-    .upload-memuscriptage-wrap .upload-memuscriptage-file label{
-        margin-top: 15px;
-    }
-    .upload-memuscriptage-wrap .upload-memuscriptage{
-        padding: 12px 0;
-    }
-    .our-services .service-boxes .service-box{ 
-        padding: 14px 14px;
-        padding: 0 9px; 
-        padding-top: 9px;
-    }
-    .our-services .services-text p:first-of-type {
-        padding-top: 0;
-    }
-    .our-services .services-text p, 
-    .award-wining .award-winning-text p,
-    .award-wining-boxes-wrapper .award-wining-boxes .award-wining-box-text p {
-        font-size: 15px;
-    }
-    .award-wining-boxes-wrapper .award-wining-boxes .award-wining-box-text h2{
-        font-size: 16px
-    }
-    .assure-security-wrapper .assured-head h2{
-        margin-bottom: 40px;
-    }
-    .publised-us .published-boxes-wrap .published-box .published-text ul li{
-        font-size: 15px;
-    }
-    .what-makes .publisher .publisher-details .publisher-details-name .publisher-name p,
-    .what-makes .publisher .no-of-experice .view-profile a{
-        font-size: 15px;
-    }
-    .what-makes .publisher .no-of-experice h3 {
-        font-size: 16px;
-    }
-    .what-makes .whatmakes-boxes-wrapes .whatmakes-box .whatmakes-box-text h4 {
-        font-size: 18px;
-    }
-    .wining-award .wining-award-icon .icon-box {
-        height: 102px; 
-        width: 107px;
-        margin: 0 auto;
-    }
-    .wining-award .wining-award-icon p {
-        padding: 0 27px;
-        font-size: 13px; 
-        margin-top: 8px;
-        font-weight: 600;
-    }
-    .wining-award .award-wining-head h2 {
-        font-size: 30px;
-         
-        line-height: 32px;
-    }
-    .wining-award .award-wining-head h3 {
-        font-size: 32px; 
-        line-height: 29px;
-    }
+@media(max-width:1199px){ 
 
-    .news-events .new-events-blog .new-events-list h4{
-        font-size: 15px;
-    }
-    .news-events .new-events-blog .new-events-list .new-events-list-text {
-        padding-left: 11px;
-        padding-top: 10px;
-        padding-right: 5px;
-    }
-    .news-events .new-events-blog .new-events-view .new-events-text .date {
-        font-size: 13px;
-    }
-    .testimonials-wrap .main-testimonials .testimonials-text p{
-        padding: 0 30px;
-    }
-    .testimonials-wrap .main-testimonials .testimonials-text p:before{
-        left: 25px;
-    }
-    .footer .left-footer:before{
-        right: -94px;
-    }
-    .footer .footer-box .policies ul li a{
-        font-size: 12px;
-    }
-    .footer .footer-box p{
-        font-size: 14px;
-    }
-    .footer .footer-box > ul li a{
-        font-size: 14px;
-    }
-    .footer .disclaimer p{
-        font-size: 12px;
-    }
-    .main-slider .slider-text p{
-        padding: 0
-    }
+
 }
 
 
-/* Media Querry 991 */
-@media(min-width:992px)and (max-width:1024px){
-    .common-btn{
-        font-size: 14px;
-    }
-    .top-section .call-to-action ul li a span{
-        font-size: 15px;
-    }
+/* Media Querry 1199 */
+@media(min-width:1024px)and (max-width:1199px){ 
+header .navigation-bar .logo img {
+    width: 133px;
+}
+header .navigation-bar .navbar .navbar-nav li > a {
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0px;
+}
+header .navigation-bar .navbar .navbar-nav{
+        width: 55%;
+}
+header .navigation-bar .call-to-action ul li .order-livechat a:first-child{
+    padding-right: 4px;
+}
+header .navigation-bar .call-to-action ul li .order-livechat a:last-child{
+   padding-left: 6px;
 }
 
 
-/* Media Querry 991 */
-@media(max-width:991px){
+header .navigation-bar .navbar .navbar-collapse {
+    padding-left: 80px;
+    margin-right: 0;
+}
+header .navigation-bar .call-to-action ul li a{
+    margin-right: 0;
+}
+
  
-   
-    .top-reason-box {
-    height: 100%;
-    display: flex;
+
+header .navigation-bar .call-to-action {
+    margin-left: 10px;
 }
-.publishing-journey .pj-tabs-list ul li a p {
+header .slider-text{
+    padding-left: 145px;
+}
+header .price-calculator{
+    padding: 15px 14px;
+}
+}
+
+
+
+
+/* Media Querry 991 */
+@media(min-width:992px)and (max-width:1024px){ 
+header .navigation-bar .call-to-action ul li .order-livechat a{
     font-size: 12px;
+    
 }
-.publishing-journey .tabs-details-boxes .tabs-details .tabs-details-states .state-box .numbers {
+header .navigation-bar .call-to-action ul li a{
+    font-size: 14px;
+}
+header .navigation-bar .call-to-action{
+    margin-left: 0;
+}
+header .navigation-bar .navbar .navbar-nav li > a{
+    font-size: 13px;
+}
+header .slider-text{
+    padding-left: 160px;
+}
+header .price-calculator{
+        padding: 16px 11px;
+}
+}
+
+
+/* Media Querry 991 */
+@media(max-width:991px){ 
+    div#collapsibleNavbar {
+    background: #000;
+    padding-bottom: 9px;
+}
+header .slider-text{
+    padding-left: 75px;
+}
+.do-need .do-need-section .talk-email .actions .actions-text h3{
+    font-size: 18px
+}
+.do-need .do-need-section .do-need-heading h2{
+        font-size: 22px;
+}
+.do-need .do-need-section .do-need-heading h4, .do-need .do-need-section .do-need-heading h2{
     font-size: 20px;
 }
-.upload-memuscriptage-wrap .upload-memuscriptage .upload-memu-text h1 {
-    margin-bottom: 0;
-    font-size: 20px !important;
+.testimonials{
+    padding: 40px 0;
+}
+.testimonials .testimonials-carausal .slick-arrow{
+    z-index: 999
+}
+.testimonials .testimonials-carausal .slick-arrow.prev-arrow {
+     
+      left: unset;
+    border-right: 0;
+        right: 8px;
+
+}
+.testimonials .testimonials-carausal .slick-arrow.next-arrow {
+    
+    left: unset;
+    border-right: 0;   right: -37px;
+}
+.new-slides .points-slide{
+        margin-top: 97px;
+}
+.new-slides .news-slides-text .news-slides-box{
+    margin-top: 30px;
+}
+.new-slides{
+    padding-top: 30px;
+}
+.service-feature .service-feature-img {
+     
+    align-items: center;
+    margin-right: 0;
+}
+.service-quality-text {
+    margin-bottom: 35px;
+}
+.service-quality-wrap .service-quality-heading p {
+    margin-bottom: 23px; 
+}
+header .price-calculator{
+        padding: 20px 12px;
+}
+button.navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+.service-feature{
+padding: 25px 0;
+}
+.our-process{
+    padding: 25px 0;
 }
 
-.publishing-journey .tabs-details-boxes .tabs-details .tabs-details-states .state-box .stats-text {
-    padding: 0 6px;
- 
-    font-weight: 500;
-    font-size: 14px;
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(225, 225, 225, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
 }
-.publishing-journey .tabs-details-boxes .tabs-details .tabs-details-states .state-box {
-    min-height: 62px;
-    height: 62px;
+header .navigation-bar .navbar .navbar-nav {
+ width: 100%;
+    text-align: center;
 }
-.services-section .service-section-boxes .service-section-box .icon-box .icon{
-    transform: scale(.5);
+header .navigation-bar .navbar .navbar-collapse {
+    padding-left: 0;
+    margin-right: 0;
 }
-.services-section .service-section-boxes .service-section-box .icon-box{
-    width: 74px;
-    height: 39px;
+header .navigation-bar .call-to-action{
+    margin-left: 0;
 }
-.services-section .service-section-boxes .service-section-box .text-box p {
- 
-    font-size: 14px;
-    padding: 0 5px
+.call-to-action ul{
+    justify-content: center !important;
+    margin-top: 13px;
 }
-.services-section .service-section-boxes .service-section-box {
-    width: 153px;
-    height: 142px;
+    header .slider-text h1 {
+     
+    font-size: 27px;
 }
-.publication-support-packges .packges-box p {
-    font-weight: 300;
-    font-size: 15px;
+header .price-calculator {
+     
+    margin-top: 50px;
+     
+    margin-right: 0;
 }
-.successfully-published .successful-box p{
-    font-size: 15px !important;
+header .slider-text {
+    padding-left: 0;
+    text-align: center;
+    margin-top: 50px;
 }
-.successfully-published .successful-box p
-    ul.navbar-nav {
-        text-align: center;
-    }
-    .top-section .logo {
-        margin-bottom: 15px;
-    }
-    .assure-security-wrapper{
-        background: linear-gradient(90deg, #df132f 100%, #fff 48%);
-    }
-    .heading-tile{
-        font-size: 29px;
-    }
-    .main-slider .slider-text p{
-        padding: 0
-    }
-    .our-services { 
-        padding: 40px 0;
-    }
-    .our-service-btn{
-        margin-bottom: 15px;
-    }
-    .award-wining .award-winning-text{ 
-        padding: 0 14px; 
-        padding-right: 0;
-    }
-    .our-services .services-text p, .award-wining .award-winning-text p, .award-wining-boxes-wrapper .award-wining-boxes .award-wining-box-text p{
-        font-size: 14px;
-    }
-    .collaboration-wrapper .collaborations-head p{
-        padding: 0;
-    }
-    .collaboration-box{
-        margin-bottom: 10px;
-    }
-    .collaboration-wrapper .collaboration-box-wrap .collaboration-box { 
-        padding: 20px 35px;
-    }
-    .assure-security-wrapper .assured-security-carausal .slick-arrow.next-arrow{
-        right: 0;
-    }
-    .assure-security-wrapper .assured-security-carausal .slick-arrow.prev-arrow {
-        right: 55px;
-    }
-    .publised-us .published-boxes-wrap .published-box .published-text {
-        padding: 9px;
-    }
-    .publised-us .published-boxes-wrap .published-box .published-text ul li {
-        font-size: 13px;
-    }
-    .publised-us .published-boxes-wrap .published-box .published-text h3 {
-        font-size: 17px; 
-    }
-    .publised-us .published-boxes-wrap .published-box .published-text ul {
-        margin-top: 0;
-    }
-    .publised-us { 
-        padding: 29px 0;
-    }
-    .publised-us .published-boxes-wrap{
-        margin-top: 25px;
-    }
-    .wining-award .award-wining-head h2 {
-        font-size: 22px;
-        line-height: 26px;
-    }
-    .wining-award .award-wining-head h3 {
-        font-size: 25px;
-        line-height: 23px;
-    }
-    .new-events-list li{
-        margin-bottom: 15px;
-    }
-    .new-events-list li:first-child{
-        margin-top: 15px;
-    }
-    .news-events{
-        padding: 40px 0;
-    }
-    .testimonials-wrap{
-        padding: 40px 0;
-    }
-    .testimonials-wrap .main-testimonials .testimonials-text p{
-        padding: 0 0;
-    }
-    .testimonials-wrap .main-testimonials .testimonials-text p:before {
-        left: 0;
-    }
-    .common-btn{
-        height: 35px;
-    }
-    margin-top: 15px;
+
 }
 
 
 /* Media Querry 991 and 768 */
-@media(max-width:991px)and (min-width:768px){
-    .top-reason-box {
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
-    .top-reason:before{
-        top: 130px
-    }
+@media(max-width:991px)and (min-width:768px){ 
+
 }
 
 /* Media Querry 768 */
-@media(max-width:768px){
-    .services-section .service-section-boxes .service-section-box{
-        width: 100%
-    }
-    .services-section { 
-        padding: 30px 0;
-        margin-top: 0;
-    }
-    .services-section .service-section-boxes .service-section-box.--change-position {
-        margin-top: 20px;
-    }
-    .services-section:before, .services-section:after{
-        display: none;
-    }
-    .services-text-box{
-        margin-top: 15px !important;
-    }
-    .publishing-journey .pj-tabs-list ul li {
-    
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        padding: 10px 0
-    }
-    .services-section .service-section-boxes .service-section-box{
- 
-    box-shadow: 0 1px 21px 0 rgba(0, 0, 0, 0.3);
-    }
-    .publication-support-packges{
-        padding: 30px 0;
-    }
-    .publication-support-packges .packges-box {
-        text-align: center;
-    }
-    .top-reason .reason-box{
-        text-align: center;
-    padding: 24px 14px;
-    }
-    .heading-tile{
-        font-size: 24px !important;
-    }
-    .styled-list li:before{
-        position: relative;
-    }
-    .styled-list li{
-        padding-left: 0;
-    }
-    .award-wining .award-winning-text{
-        min-height: 171px;
-    }
-    .assure-security-wrapper {
-        background: linear-gradient(90deg, #df132f 100%, #fff 48%);
-        padding: 30px 0;
-         
-    }
-    .published-box .img-box img{
-        width: 100%;
-    }
-    .published-boxes-wrap .col-md-4{
-        margin-bottom: 15px;
-    }
-    .memu-script{
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
-    .wining-award:before{
-        display: none;
-    }
-    .wining-award .award-wining-head {
-        
-        justify-content: center;
-        background: #df132f;
-        align-items: center;
-        padding: 14px 0;
-    }
-    .wining-award .award-wining-head h2 {
-        font-size: 22px;
-        line-height: 26px;
-        width: 100%;
-        text-align: center;
-    }
-    .wining-award .award-wining-head h3{
-        width: 100%;
-        text-align: center;
-    }
-    .footer .left-footer:before{
-        display: none
-    }
-    .footer .left-footer{
-       background: transparent
-    }
-    .footer .footer-box .policies {
-        margin-top: 19px;
-    }
-    .footer { 
-        padding-top: 30px;
-    }
-    .footer .footer-box {
-        padding-top: 23px;
-    }
-    .footer{
-        text-align: center
-    }
-    .footer .footer-box .policies ul {
-        display: flex;
-        justify-content: center;
-    }
-    .footer .footer-social{
-        margin-top: 30px;
-    }
-    .footer-social{
-        flex-direction: column;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-    .copyright-text {
-        margin-top: 14px;
-    }
-    .testimonials-wrap .main-testimonials .testimonials-text p:before {
-        left: 0;
-        top: -13px;
-    }
-    .what-makes .whatmakes-boxes-wrapes .whatmakes-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .what-makes .whatmakes-boxes-wrapes .whatmakes-box .icon-box {
-        display: block;
-        width: 100%;
-    }
-    .what-makes .whatmakes-boxes-wrapes .whatmakes-box .icon-box .icon {
-        margin:0 auto
-    }
-    .services-section .service-section-boxes .heading-tile{
-        color: #000;
-        text-align: center
-    }
+@media(max-width:768px){ 
+    header .navigation-bar .call-to-action ul li .order-livechat {
+    margin-left: 8px;
+    justify-content: center;
+}
+.call-to-action{
+    text-align: center;
+}
+header .slider-text ul li .icon{
+    display: none;
+}
+header .price-calculator{
+    margin-left: 0;
+}
+.service-quality-text{
+    text-align: center;
+}
+.service-feature .service-feature-text {
+    padding: 21px 31px 18px 32px;
+     
+}
+.service-feature .service-feature-text .heading-tile{
+    font-size: 24px;
+        margin-bottom: 0;
+}
+.process-box {
+    text-align: center;
+}
+.our-process .process-box .number{
+    margin: 0 auto;
+}
+.testimonial-sidebar{
+    margin-bottom: 15px;
+}
+.do-need .do-need-section .talk-email{
+  
+    margin-bottom: 0;
+    flex-direction: column;
+}
+.do-need .do-need-section .talk-email .actions + .actions {
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-links{
+    text-align: center
+}
+header .navigation-bar .logo {
+     
+    text-align: center;
+}
 }
 /* Media Querry 576 */
-@media(max-width:576px){
-    .upload-memuscriptage-wrap .upload-memuscriptage-file label{
-        width: 190px;
-        height: 42px;
-        .content {
-            font-size: 14px;
-        }
-    }
-    .upload-memuscriptage-wrap .upload-memuscriptage-file label span svg{
-        transform: scale(0.6)
-    }
-    .publication-support-packges .pub-s-heading{
-        margin-bottom: 20px;
-    }
-    .upload-memuscriptage-wrap .upload-memuscriptage-file label span {
-  
-        margin-right: 0;
-    }
-    .successfully-published .successful-box .successful-img img {
-        width: 124px;
-        margin: 0 auto;
-    }
-    .assured-box.d-flex.successful-box{
-        margin-bottom: 20px;
-    }
-    .upload-memuscriptage-wrap{
-        text-align: center;
-    }
-    .upload-memuscriptage-wrap .upload-memuscriptage .upload-memu-text h1{
-        font-size: 17px !important
-    }
-    .styled-list li { 
-        font-size: 14px;
-        &:before{
-            left: -6px;
-        }
-    }
-    .common-btn { 
-        font-size: 14px;
-    }
-    p{
-        font-size: 14px
-    }
-    .main-slider{
-        min-height: 350px;
-    }
-    .main-slider .slider-text{
-        min-height: 350px;
-    }
-    .main-slider .slider-text h1{
+@media(max-width:576px){ 
+header .slider-text h1 {
+    font-size: 20px;
+}
+header .slider-text ul li{
+    padding-left: 0;
+    font-size: 14px;
+}
+header .price-calculator h1{
         font-size: 24px;
-    }
-    .main-slider .slider-text p {
-        padding: 0;
-        font-size: 14px;
-    }
-    .top-section .call-to-action ul li{
-        justify-content: center;
-        margin-bottom: 10px;;
-    }
-    .top-section .call-to-action ul li:first-child{
-       border:0;
-    }
-    .top-section .logo {
-        margin-bottom: 15px;
-    }
-    .our-services {
-        padding: 30px 0;
-        text-align: center;
-    }
-    .our-services .service-boxes .service-box .service-icon {
- 
-        margin: 0 auto;
-    }
-    .award-wining .award-winingbg {
-   
-        min-height: 170px;
-  
-        padding-left: 25px;
-        align-items: center;
-  
-    }
-    .award-wining .award-winingbg h4{
-        font-size: 21px;
-    }
-    .award-wining .award-winingbg p {
-        font-size: 24px;
- 
-    }
-    .award-wining .award-winingbg h1{
-        font-size: 28px;
-    }
-    .award-wining .award-winning-text {
-        min-height: auto;
-        text-align: center;
-        padding: 8px 21px;
-    }
-    .award-wining-boxes-wrapper .award-wining-boxes {
-         
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
-    .collaboration-wrapper .collaborations-head {
-        margin-top: 35px;
-    }
-    .collaboration-wrapper .collaboration-box-wrap {
-        padding: 30px 0;
-        padding-bottom: 30px;
-    }
-    .heading-tile {
-        font-size: 20px !important;
-    }
-    .collaboration-wrapper .collaboration-box-wrap .collaboration-box {
-        padding: 14px 10px;
-        text-align: center;
-    }
-    .collaboration-wrapper .collaboration-box-wrap .collaboration-box.--for-publisher{
-        text-align: center
-    }
-    .assure-security-wrapper{
-        text-align: center;
-    }
-    .assured-box{
-        flex-direction: column
-    }
-    .assure-security-wrapper .assured-box .icon-box{
-        margin: 0 auto;
-    }
-    .memu-script .memu-script-text h3 {
-        margin-top: 0;
-        text-align: center;
-    }
-    .memu-script .memu-script-text p {
-        font-size: 14px;
-        margin-top: 20px;
-        text-align: center;
-    }
-    .what-makes .publisher .publisher-details{
-        flex-direction: column;
-    }
-    .what-makes .publisher .publisher-details .publisher-details-name {
-        flex-direction: column;
-        text-align: center;
-    }
-    .what-makes .publisher .publisher-details .publisher-country img {
-        margin: 0 auto;
-    }
-    .publisher-country{
-        margin-top: 10px;;
-    }
-    .what-makes .publisher .no-of-experice {
-        padding-left: 0;
-        text-align: center;
-        margin: 15px 0;
-    }
-    .what-makes .publisher .publisher-details .publisher-details-name .publisher-name {
-        padding-left: 0;
-        padding-top: 10px;
-    }
-    .testimonials-wrap .main-testimonials .testimonials-carausal .slick-list .slick-active ul li.active img {
-        width: 60px;
-        height: 60px;
- 
-    }
-    .testimonials-wrap .testimonial-head .client-say{
-        margin-top: 4px;
-    }
-    .testimonials-wrap .main-testimonials .testimonials-images ul li:nth-child(2) {
-        margin: 0 10px;
-    }
-    .testimonials-wrap .main-testimonials .testimonials-text p {
-        font-size: 13px;
-   
-    }
-    .testimonials-wrap .main-testimonials .testimonials-images ul li img{
-        width: 35px;
-        height: 35px;
-    }
-    .testimonials-wrap .testimonial-head .client-say{
-        font-size: 13px;
-    }
-    .testimonials-wrap .testimonial-head .client-say:before, .testimonials-wrap .testimonial-head .client-say:after{
-        width: 50px;
-    }
-    .testimonials-wrap .testimonial-head .client-say:after{
-        right: -57px;
-    }
-    .testimonials-wrap .testimonial-head .client-say:before {
-        left: -54px; 
-    }
-    .assure-security-wrapper .assured-head h2 {
-        margin-bottom: 30px;
-        font-size: 23px;
-    }
-    .publication-service{
-        text-align: center;
-        padding: 20px 0;
-    }
-    .publication-service h5 { 
-        margin-bottom: 10px;
-        font-size: 15px;
-    }
-    .publication-service h1{
-        margin-bottom: 15px;
-    }
-    .top-reason .top-reason-head{
-        text-align: center;
-    }
-    .services-text-box.mt-2 {
-        text-align: center;
-    }
-    .services-section .services-text-box .sub-heading{
-        font-size: 18px
-    }
-    .services-section .services-text-box .main-heading {
-        font-size: 22px; 
-        margin-bottom: 14px;
-    }
-    .breadcrum-section .breadcrumb li {
- 
-        font-size: 13px;
-    }
-    .navigationbar {
-        background: #3b3b3b;
-        min-height: 43px;
-        text-align: center;
+}
+.heading-tile{
+    font-size: 20px
+}
+.common-btn { 
+    height: 35px;
+    min-width: 137px; 
+     
+    padding: 0 17px; 
+    font-size: 14px;
+}
+.service-feature .service-feature-img img{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+.service-feature .contact-info{
+    text-align: center;
+    width: 100%;
+}
+.service-feature .contact-info .phone-no-icon{
+    justify-content: center;
+    font-size: 20px;
+}
+.service-feature .service-feature-text .heading-tile{
+        font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.service-feature .service-feature-text .heading-tile:before {
+    margin-left: auto;
+}
+.heading-tile {
+    font-size: 20px !important;
+    text-align: center;
+    &:before{
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
+.service-feature .service-feature-text:after{
+    display: none;
+}
+.testimonial-sidebar{
+    text-align: center
+}
+.testimonials .customer-testimonials .customer-testimonials-box .ct-details .ct-img{
+    margin: 0 auto;
+}
+.ct-details{
+    justify-content: center;
+    text-align: center
+}
+.customer-testimonials-box{
+    text-align: center
+}
+.do-need .do-need-section .talk-email .actions .actions-text h3{
+    font-size: 14px;
+}
+.our-process .process-btns a:last-of-type{
+    margin-left: 0;
+    margin-top: 5px;;
+}
+.service-quality-wrap .service-quality-boxes .service-quality-box {
+    cursor: pointer;
+    background: #ddf8e5;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+}
+
 
 
 

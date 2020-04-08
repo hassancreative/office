@@ -1,0 +1,27 @@
+<?php
+$asia = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip=".$_SERVER['REMOTE_ADDR'].""));
+$countryCode = array('SA','AE');
+$whitelist_ip = array('127.0.0.1');
+
+if($asia['geoplugin_continentName'] == 'Asia' && !in_array($asia['geoplugin_countryCode'],$countryCode) && !in_array($asia['geoplugin_request'],$whitelist_ip))
+   exit('Site not available!');
+  
+$link_err = strpos($_SERVER['REQUEST_URI'], '.php/');
+if($link_err !== false) {
+	$link_remove = substr($_SERVER['REQUEST_URI'], $link_err, strlen($_SERVER['REQUEST_URI']) - 1 );
+	$protocol = isset($_SERVER["HTTPS"]) ? 'https' : 'http';
+	$actual_link = $protocol.'://'.$_SERVER['HTTP_HOST'].str_replace($link_remove, '', $_SERVER['REQUEST_URI']).'.php';
+	header("HTTP/1.1 301 Moved Permanently");
+	header('Location: '.$actual_link);
+	// echo $actual_link;
+	// echo $_SERVER['HTTP_HOST'].$actual_link.'.php';
+}
+
+$base_url = "https://www.Websitename.co.uk/";
+$site_phone_number = "0123-456-7891";
+$site_email_address = "info@websitename.co.uk";
+$domain_name = "www.websitename.co.uk";
+$site_name = "Website Name";
+$site_discount = 0;
+require(__DIR__.'/meta.php');
+?> 

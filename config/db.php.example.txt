@@ -1,0 +1,47 @@
+<?php
+ob_start();
+@session_start();
+error_reporting(E_ALL & ~E_NOTICE);
+
+$timezone = "Europe/London";
+date_default_timezone_set($timezone);
+$time_stamp = date('Y-m-d H:i:s');
+
+$us_ppc_sites = ['www.bestpaperonline.com','www.us.britishdissertationshelp.co.uk' , 'www.paperthor.com','www.papermaticonline.com'  ];
+$au_sites = ['www.essaykangaroo.com', 'www.essaykangaroo.com.au', 'australianassignmentshelp.com.au', 'australianessayhelp.com.au', 'www.australianassignmentshelp.com.au', 'www.australianessayhelp.com.au'];
+
+
+
+
+
+if ($_SERVER['SERVER_NAME'] == "localhost") {
+   define("DB_HOSTNAME", "localhost");
+   define("DB_USER", "dbuser");
+   define("DB_PASS", "dbpass");
+   define("DB_DB", "dbname");
+} else {
+    define("DB_HOSTNAME", "livehost");
+    define("DB_USER", "dbuser");
+    define("DB_PASS", "dbpass");
+    define("DB_DB", "dbname");
+}
+require(__DIR__.'./../model/vendor/autoload.php');
+
+$connection = mysqli_connect(DB_HOSTNAME, DB_USER, DB_PASS, DB_DB);
+
+require(__DIR__.'./../model/Mail/Mailer.php');
+require(__DIR__.'./../model/Mail/Message.php');
+
+
+	$mail               = new PHPMailer;
+	// $mail->SMTPDebug = 3;
+	//$mail->isSMTP();
+	$mail->Host         = 'mailhost';
+	$mail->SMTPAuth     = true;
+	$mail->Username     = $site_email_address;
+	$mail->Password     = 'mailpass';
+	$mail->SMTPSecure   = 'ssl';
+	$mail->Port         = '465';
+	$mail->isHTML(true);
+
+require(__DIR__.'./../model/order/functions.inc.php');
